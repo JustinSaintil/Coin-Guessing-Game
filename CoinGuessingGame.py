@@ -24,8 +24,7 @@ while correct:
         guess = "Tails"
     if guess == gop:
         print "The Right answer was:", guess, "\nYour answer was:", gop, "\nWho was right:You were"
-        score = 0
-        score = score +1
+        score = score + 1
         print "Your current score is:", score
     else:
         print "The Right answer was:", guess, "\nYour answer was:", gop, "\nWho was right:You Weren't"
