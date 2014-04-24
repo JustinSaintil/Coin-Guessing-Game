@@ -30,6 +30,10 @@ while correct:
         print "The Right answer was:", guess, "\nYour answer was:", gop, "\nWho was right:You Weren't"
         correct = False
         print "You are a Failure.", "\nYour Score is:", score, ".", "The Highscore still is:", highscore
+        if score > 1:
+            print "But you got higher than 1 which means you are not a total failure."
+        else:
+            print "Didn't even get over 1. Pity....Pity"
 
 
 highscore = int(highscore)
